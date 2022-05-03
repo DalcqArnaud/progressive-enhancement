@@ -1,0 +1,118 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    font-size: medium;
+    color: rgb(41, 7, 46);
+    width: 90%;
+    margin: 0% 5%;  
+    background-image: url("../images/Background_04.jpg");
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+
+    /*background-color: burlywood;*/
+    /*background: radial-gradient(rgb(234, 231, 198), rgb(224, 215, 110));*/
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: darkmagenta;
+}
+
+a:hover {
+    color: crimson;
+}
+
+blockquote {
+    font-size: 160%;
+    font-weight: bold;
+    width: 50%;
+    margin: 80px 25%;
+    background-color: rgb(224, 224, 224);    
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+q {
+    display: inline-block;
+    width: 50%;
+    margin: 80px 25%;
+    font-size: 160%;
+    background-color: rgb(224, 224, 224);    
+    border-left: 3px solid;
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.villagersQuotes{
+    border-color: firebrick;
+}
+
+.farmerQuotes{
+    border-color: darkcyan;
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+.goodWords, .badWords{
+    text-transform: uppercase;
+}
+
+.badWords{
+    color: red;
+}
+
+.goodWords{
+    color: green;
+}
+
+tr:nth-of-type(even){
+    background-color: grey;
+}
+
+tr:nth-of-type(odd){
+    background-color: white;
+}
+
+.typeOfPoeple>li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.typeOfPoeple li:first-child{
+    background-repeat: no-repeat;
+    background-image: url("../images/bien.png");
+    padding-right: 1050px;
+    background-position: center;
+    background-origin: content-box;
+}
+
+.typeOfPoeple li:nth-child(2){
+    background-repeat: no-repeat;
+    background-image: url("../images/mal.png");
+    padding-right: 1100px;
+    background-position: center;
+    background-origin: content-box;
+}
+
+.typeOfPoeple li:nth-child(3){
+    background-repeat: no-repeat;
+    background-image: url("../images/chat.png");
+    padding-right: 1100px;
+    background-position: center;
+    background-origin: content-box;
+}
+
+body p:first-of-type{
+    font-weight: bold;
+}
