@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Open sans";
     letter-spacing: 0.5px;
     font-size: medium;
     color: rgb(41, 7, 46);
@@ -87,32 +87,41 @@ tr:nth-of-type(odd){
 .typeOfPoeple>li{
     padding-top: 15px;
     padding-bottom: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
 }
 
 .typeOfPoeple li:first-child{
-    background-repeat: no-repeat;
     background-image: url("../images/bien.png");
-    padding-right: 1050px;
-    background-position: center;
-    background-origin: content-box;
+    padding-right: 45%;
 }
 
 .typeOfPoeple li:nth-child(2){
-    background-repeat: no-repeat;
     background-image: url("../images/mal.png");
-    padding-right: 1100px;
-    background-position: center;
-    background-origin: content-box;
+    padding-right: 50%;
 }
 
 .typeOfPoeple li:nth-child(3){
-    background-repeat: no-repeat;
     background-image: url("../images/chat.png");
-    padding-right: 1100px;
-    background-position: center;
-    background-origin: content-box;
+    padding-right: 50%;
 }
 
 body p:first-of-type{
     font-weight: bold;
 }
+
+.article>img{
+    max-width: 300px;
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+
+
